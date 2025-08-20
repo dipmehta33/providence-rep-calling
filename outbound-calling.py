@@ -7,7 +7,7 @@ load_dotenv()
 
 # Get the API key
 #api_key = os.getenv("VAPI_API_KEY")
-api_key = "151677fc-bf97-435c-a381-de2cdc1c5876"
+api_key = ""
 
 print(api_key)
 
