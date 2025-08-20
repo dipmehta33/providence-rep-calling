@@ -20,7 +20,7 @@ vapi = Vapi(token=api_key)
 # Create an outbound call
 call = vapi.calls.create(
     phone_number_id="dce2c662-f43e-477d-ba2b-3e38f4f37510",
-    customer={"number": "+14084250666"},
+    customer={"number": "+"},
     assistant_id="343ccd2f-7ca9-40f3-8da7-1ba53254553a"
 )
 print(f"Call created: {call.id}")
